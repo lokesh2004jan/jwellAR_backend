@@ -41,10 +41,10 @@ Frontend → Backend (Spring Boot on EC2)
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home](screenshots/home.png)
+![Profile](WhatsApp Image 2026-04-23 at 11.05.16 (1).jpeg)
 
 ### 👑 AR Try-On
-![AR](screenshots/ar.png)
+![AR](WhatsApp Image 2026-04-23 at 11.05.16 (1).jpeg)
 
 
 ---
