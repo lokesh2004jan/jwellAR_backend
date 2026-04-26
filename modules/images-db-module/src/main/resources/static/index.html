@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JewellAR ImagesDB API</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #132238;
+      --subtext: #5c6f87;
+      --accent: #0a66c2;
+      --border: #d8e0ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(145deg, #eef4fb 0%, #f8fbff 60%, #eef8f5 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 16px 50px rgba(10, 34, 56, 0.08);
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 1.8rem;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--subtext);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+      display: grid;
+      gap: 10px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .hint {
+      margin-top: 18px;
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>JewellAR ImagesDB is running</h1>
+    <p>The root URL now serves this page. Use the API endpoints below for testing.</p>
+
+    <ul>
+      <li><a href="/api/jewelry/test">/api/jewelry/test</a></li>
+      <li><a href="/api/jewelry/all">/api/jewelry/all</a></li>
+      <li><a href="/admin/dashboard">/admin/dashboard</a></li>
+      <li><a href="/api/user/check?uid=demo-user">/api/user/check?uid=demo-user</a></li>
+    </ul>
+
+    <p class="hint">Tip: most endpoints expect specific parameters and/or JSON payloads.</p>
+  </main>
+</body>
+</html>
