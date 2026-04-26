@@ -41,11 +41,10 @@ Frontend → Backend (Spring Boot on EC2)
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Profile](WhatsApp Image 2026-04-23 at 11.05.16 (1).jpeg)
+![Profile](https://github.com/lokesh2004jan/jwellAR_backend/blob/main/WhatsApp%20Image%202026-04-23%20at%2011.05.16%20(1).jpeg)
 
 ### 👑 AR Try-On
-![AR](WhatsApp Image 2026-04-23 at 11.05.16 (1).jpeg)
-
+![AR](https://github.com/lokesh2004jan/jwellAR_backend/blob/main/WhatsApp%20Image%202026-04-23%20at%2011.05.16.jpeg)
 
 ---
 
